@@ -19,4 +19,9 @@ class FizzBuzzTest {
     void passAMultipleOfThreeAndReturnFizz() {
         assert num.fizzBuzz(3) == "Fizz"
     }
+
+    @Test
+    void passAMultipleOfFIveAndReturnBuzz() {
+        assert num.fizzBuzz(5) == "Buzz"
+    }
 }
