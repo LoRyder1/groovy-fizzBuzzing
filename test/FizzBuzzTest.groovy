@@ -14,5 +14,4 @@ class FizzBuzzTest {
     void passANumberToFizzBuzzAndReturnNumber() {
         assert num.fizzBuzz(1) == "1"
     }
-
 }
